@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SOLVE - ECE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <nav class="navbar nav">
+      <div class="container-fluid justify-content-center">
+        <span class="navbar-brand mb-0 h1 text-uppercase text-white"
+          >SOLVE - Electronics & Communication Engineering - DSP Filters
+          Lab</span
+        >
+      </div>
+    </nav>
+    <div class="row p-5">
+      <div class="col-md-3" id="labCards">
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          onclick="displayExperiment(this)"
+        >
+          Study of sampling theorem
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          onclick="displayExperiment(this)"
+        >
+          Verification of Linear Convolution
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          onclick="displayExperiment(this)"
+        >
+          Verification of Circular Convolution
+        </button>
+      </div>
+      <div class="col-md-9 my-0" id="frames">
+        <iframe
+          id="frame"
+          src=""
+          height="1200"
+          width="1000"
+          title="Iframe Example"
+        ></iframe>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
